@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "ded105e1-598f-4f91-ba87-4c9e92cfb7fd",
+		"name": "static-rest-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "253739"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8699/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8699/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8699",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8699/users/6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8699/users/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8699",
+					"path": [
+						"users",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8699/users/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\":10,\n    \"name\":\"devhubspot\",\n    \"email\":\"devhubspot@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8699/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8699",
+					"path": [
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8699/users/8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"facebook12\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8699/users/81",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8699",
+					"path": [
+						"users",
+						"81"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8699/users/7",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8699/users/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8699",
+					"path": [
+						"users",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
